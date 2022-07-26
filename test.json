@@ -6,14 +6,20 @@
         "Receiving_Application": "DCM4CHEE",
         "Receiving_Facility": "CYLIEN",
         "Date_Time": "20220523170000",
-        "Security": " ",
-        "Message_Type": {
-            "Message_Type": "ORM",
-            "Trigger_Event": "O01"
-        },
+        "Security": "",
+        "Message_Type": [
+            {
+                "segment": "Message_Type",
+                "value": "ORM"
+            },
+            {
+                "segment": "Trigger_Event",
+                "value": "O01"
+            }
+        ],
         "Message_Control_Id": "20220623140000",
         "Processing_Id": "P",
-        "Version_Id": "2.3",
+        "Version_Id": "2.3.1",
         "Sequence_Number": "",
         "Continuation_Pointer": "",
         "Accept_Acknowledgement_Type": "",
@@ -23,6 +29,6 @@
         "Principal_Language_of_Message": ""
     },
     "PID": {
-        "name": "PID"
+        "user_id": "001"
     }
 }
