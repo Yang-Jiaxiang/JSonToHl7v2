@@ -6,10 +6,38 @@
                 "segment": "MSH",
                 "value": [
                     "Encoding_Characters",
-                    "Sending_Application",
-                    "Sending_Facility",
-                    "Receiving_Application",
-                    "Receiving_Facility",
+                    {
+                        "segment": "Sending_Application",
+                        "data": [
+                            "Namespace_ID",
+                            "Universal_ID",
+                            "Universal_ID_Type"
+                        ]
+                    },
+                    {
+                        "segment": "Sending_Facility",
+                        "data": [
+                            "Namespace_ID",
+                            "Universal_ID",
+                            "Universal_ID_Type"
+                        ]
+                    },
+                    {
+                        "segment": "Receiving_Application",
+                        "data": [
+                            "Namespace_ID",
+                            "Universal_ID",
+                            "Universal_ID_Type"
+                        ]
+                    },
+                    {
+                        "segment": "Receiving_Facility",
+                        "data": [
+                            "Namespace_ID",
+                            "Universal_ID",
+                            "Universal_ID_Type"
+                        ]
+                    },
                     "Date_Time",
                     "Security",
                     {
@@ -20,7 +48,13 @@
                         ]
                     },
                     "Message_Control_Id",
-                    "Processing_Id",
+                    {
+                        "segment": "Processing_Id",
+                        "data": [
+                            "Processing_ID",
+                            "Processing_Mode"
+                        ]
+                    },
                     "Version_Id",
                     "Sequence_Number",
                     "Continuation_Pointer",
@@ -28,7 +62,17 @@
                     "Application_Acknowledgement_Type",
                     "Country_Code",
                     "Character_Set",
-                    "Principal_Language_of_Message"
+                    {
+                        "segment": "Principal_Language_of_Message",
+                        "data": [
+                            "Identifier",
+                            "Text",
+                            "Name_Of_Coding_System",
+                            "Alternate_Identifier",
+                            "Alternate_Text",
+                            "Name_Of_Alternate_Coding_System"
+                        ]
+                    }
                 ]
             },
             {
