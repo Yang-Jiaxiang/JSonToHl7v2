@@ -1,4 +1,5 @@
 module.exports = {
+    Version: '2.3.1',
     MSH: {
         Encoding_Characters: "^~\\&",
         Sending_Application: "OM_RAD_OF",
