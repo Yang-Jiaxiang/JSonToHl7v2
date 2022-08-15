@@ -13,7 +13,11 @@ node v16.13.1
    
   
 ## HL7格式參考  
-[caristix](https://hl7-definition.caristix.com/v2/HL7v2.3/Segments)
+[caristix](https://hl7-definition.caristix.com/v2/HL7v2.3/Segments)  
+  
+## Author  
+[Louis](https://github.com/Yang-Jiaxiang)
+
 
 
 
